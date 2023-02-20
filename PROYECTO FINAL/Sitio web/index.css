@@ -1,0 +1,95 @@
+/*TODOS LOS ELEMENTOS*/
+*{
+   margin:0;
+   padding:0;
+}
+
+/*BODY*/
+body{}
+   
+
+
+
+
+/*HEADER*/
+.header{
+   background-color: lightpink;
+   width: 100%;
+}
+
+.titulo{
+   color: black;
+}
+
+/*NAV*/
+.lista{
+   display: flex;
+   flex-direction: row;
+   width:100%;
+   text-align: right;
+   gap: 15px;
+   justify-content: right;
+}
+
+.elementoslista{
+   list-style: none;
+   color: black;
+}
+
+/*MAIN*/
+
+/*horarios de atención*/
+.tabla{
+   
+}
+.Lunes{
+   color: blueviolet;
+}
+.Martes{
+   color: darkred;
+}
+.Miercoles{
+   color: deeppink;
+}
+.Jueves{
+   color: indigo;
+}
+.Viernes{
+   color: mediumvioletred;
+}
+.Sabado{
+   color: red;
+}
+.dias{
+   font-size: larger;
+}
+
+/*formulario de contacto*/
+.form{
+   border:red;
+   border-top: 5px;
+   border-bottom: 5px;
+   border-left: 5px;
+   border-right: 5px;
+   border-style: dotted;
+
+   margin-top: 1cm;
+   margin-right: 28cm;
+   margin-bottom: 1cm;
+   margin-left: 1cm;
+}
+
+/*SECTION*/
+
+/*sobrenosotros*/
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+}
+
+/*FOOTER*/
+
+.footer{
+   background-color: lightpink ;
+   width: 100%;
+}
