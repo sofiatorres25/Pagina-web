@@ -7,6 +7,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous">
     </head>
 
  <!--HEADER-->
@@ -27,22 +30,28 @@
         <main>
             <section>
                 <form class="form">
-                    Nombre <input type="text" name="Nombre">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                      </div>
                     <br>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Apellido</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                      </div>
                     <br>
-                    Apellido <input type="text" name="Apellido">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
                     <br>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Dejar su comentario:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" ></textarea>
+                      </div>
                     <br>
-                    Correo electrónico <input type="text" name="Correo electronico">
-                    <br>
-                    <br>
-                    Dejar su comentario: <br>
-                    <textarea cols="30" rows="10">
-                    </textarea>
-                    <br>
-                    <br>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Restablecer">
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                    <button type="reset" class="btn btn-dark">Restablecer</button>
                 </form>
             </section>
         </main>
@@ -51,6 +60,10 @@
         <footer class="footer">
             <p>Página creada por Sofía Torres</p>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
     </body>
 
